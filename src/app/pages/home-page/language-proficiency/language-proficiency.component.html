@@ -1,0 +1,24 @@
+<section class="mainShell">
+
+    <language-type-selector class="languageSelector" (NewList)="updateLanguageList($event)"></language-type-selector>
+    
+    <article class="tableShell">
+
+        
+        <mobile-language-list class="mobileList" [LanguageList]="CurrentList"></mobile-language-list>
+        <monitor-language-list class="monitorList" [LanguageList]="CurrentList"></monitor-language-list>
+    
+    </article>
+
+    <article class="messageShell">
+        <p class="srcryTxt pitchText">
+            My body of <span class="emphasisTxt">interests&#44; talents and experiences</span> allow me to <span class="emphasisTxt">resonate</span> with a <span class="emphasisTxt">broad range</span> of <span class="emphasisTxt">end users</span> while <span class="emphasisTxt">thinking in code</span> about <span class="emphasisTxt">their needs</span>&#46;
+        </p>
+    </article>
+
+    
+    
+    <!--<p *ngFor="let a of CurrentList">{{a.name}}</p>-->
+
+</section>
+

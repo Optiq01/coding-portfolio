@@ -1,0 +1,30 @@
+.selected{
+    background-color: var(--color-05);
+    color: var(--color-03);
+}
+
+.inactive{
+    background-color: var(--color-03);
+    color: var(--color-01)
+}
+
+
+
+.buttonShell{
+    place-self: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, var(--tiny-1-4));
+    grid-gap: var(--micro-1-4);
+    --crushGap-w: var(--micro-1-3);
+    --baseSize-w: var(--loMed-1-3);
+    --edgeChase-w: var(--micro-1-4);
+    --chaseStop-w: var(--hiMed-2-3);
+}
+
+.languageButton{
+    border: none;
+    text-decoration: none;
+    font-size: var(--text-widget-1);
+    width: var(--tiny-1-4);
+    height: var(--xTiny-1-3);
+}

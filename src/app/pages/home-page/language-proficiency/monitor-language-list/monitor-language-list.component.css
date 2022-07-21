@@ -1,0 +1,41 @@
+.mainShell{
+    display: block;
+    margin-left: var(--xTiny-1-4);
+
+}
+
+.languageCaption{
+    font-size: var(--text-caption-1);
+    color: var(--color-02);
+}
+
+.languageTable{
+    background-color: var(--color-03);
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: var(--micro-1-5);
+    --crushGap-w: var(--micro-1-4);
+    --baseSize-w: var(--loMed-1-5);
+    --edgeChase-w: var(--micro-1-4);
+    --chaseStop-w: var(--loMed-2-7);
+}
+
+.tableHeader{
+    font-size: var(--text-caption-1);
+    color: var(--color-01);
+}
+
+tr, th, td{
+    border: var(--line-fine) solid var(--color-01);
+    padding: var(--micro-1-1);
+
+}
+
+.languageItem{
+    font-size: var(--text-article-1);
+}
+
+.years{
+    font-size: var(--text-caption-1);
+}

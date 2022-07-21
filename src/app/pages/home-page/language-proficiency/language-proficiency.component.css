@@ -1,0 +1,48 @@
+.mainShell{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: var(--micro-2-4);
+}
+
+.languageSelector{
+    grid-area: 1/1/2/3;
+    margin-left: var(--xTiny-1-4);
+}
+
+.mobileList{
+    grid-area: 2/1/3/2;
+    display: block;
+}
+
+.monitorList{
+    grid-area: 2/1/3/2;
+    display: none;
+}
+
+.messageShell{
+    grid-area: 2/2/3/3;
+    justify-self: right;
+    margin-right: var(--xTiny-1-6);
+    margin-top: var(--xTiny-1-7);
+    color: var(--color-01);
+}
+
+.pitchText{
+    --text-size: var(--text-subtitle-5);
+    font-weight: 300;
+    --leading-nudge-amt: 12;
+
+}
+
+.emphasisTxt{
+    font-size: var(--text-title-2);
+    font-weight:400;
+}
+
+@media screen and (min-width: 300px) {
+
+    .mobileList{ display: none; }
+    .monitorList{ display: block; }
+    
+}

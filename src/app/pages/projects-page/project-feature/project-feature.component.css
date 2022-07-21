@@ -1,0 +1,33 @@
+.mainShell{
+    display: grid;
+    width: var(--loMed-2-4);
+    /*height: var(--loMed-2-3);*/
+    grid-template-columns: var(--small-1-4) 1fr;
+    grid-template-rows: var(--xTiny-1-4) var(--small-1-4) auto var(--xTiny-1-3);
+}
+
+.titleArea{
+    grid-area: 1/1/2/3;
+    display: block;
+}
+
+.photoArea{
+    grid-area: 2/1/3/2;
+    display: block;
+    background-color: cornflowerblue;
+}
+
+.techArea{
+    grid-area: 2/2/3/3;
+    display: block;
+}
+
+.descriptionArea{
+    grid-area: 3/1/4/3;
+    display: block;
+}
+
+.linkArea{
+    grid-area: 4/2/5/3;
+    display: block;
+}

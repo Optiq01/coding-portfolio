@@ -1,0 +1,19 @@
+<section class="nav">
+
+    <article class="logoFrame">
+        <img src="../../assets/logo.svg" class="logo" />
+    </article>
+
+    <article class="mobileMenu">
+        <li class="mobileButton" (click)="toggleMobileNav()">
+            <div class="dash" style="grid-area: 1/1/2/2;"></div>
+            <div class="dash" style="grid-area: 3/1/4/2;"></div>
+            <div class="dash" style="grid-area: 5/1/6/2;"></div>
+        </li>
+    </article>
+
+    <article class="linkFrame">
+        <nav-link *ngFor="let a of Links" [Link]="a" (click)="updateLink(a)"></nav-link>
+    </article>
+
+</section>

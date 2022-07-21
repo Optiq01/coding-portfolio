@@ -1,0 +1,16 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color-01);
+    height: var(--small-1-4);
+}
+
+.leftColumn{
+    display: grid;
+    grid-area: 1/1/2/2;
+}
+
+.rightColumn{
+    display: grid;
+    grid-area: 1/2/2/3;
+}

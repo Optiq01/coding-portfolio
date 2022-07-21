@@ -1,0 +1,13 @@
+.navBar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 111;
+}
+
+.mobileNav{
+    position: sticky;
+    position: -webkit-sticky;
+    top: var(--xTiny-1-6);
+    z-index: 111;
+}

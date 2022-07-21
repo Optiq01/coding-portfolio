@@ -1,0 +1,58 @@
+
+<section class="srcryBox buttonShell">
+    <button
+        [ngClass]="CurrentList === 'all' ? 'selected' : 'inactive'"
+        class="languageButton"
+        type="button"
+        (click)="updateList('all')"
+    >All</button>
+
+    <button
+        [ngClass]="CurrentList === 'markup' ? 'selected' : 'inactive'"
+        class="languageButton"
+        type="button"
+        (click)="updateList('markup')"
+    >Markup</button>
+
+    <button
+        [ngClass]="CurrentList === 'styling' ? 'selected' : 'inactive'"
+        class="languageButton"
+        type="button"
+        (click)="updateList('styling')"
+    >Styling</button>
+
+    <button
+        [ngClass]="CurrentList === 'data' ? 'selected' : 'inactive'"
+        class="languageButton"
+        type="button"
+        (click)="updateList('data')"
+    >Data</button>
+
+    <button
+        [ngClass]="CurrentList === 'functional' ? 'selected' : 'inactive'"
+        class="languageButton"
+        type="button"
+        (click)="updateList('functional')"
+    >Functional</button>
+
+    <button
+        [ngClass]="CurrentList === 'platform' ? 'selected' : 'inactive'"
+        class="languageButton"
+        type="button"
+        (click)="updateList('platform')"
+    >Platforms</button>
+
+    <button
+        [ngClass]="CurrentList === 'library' ? 'selected' : 'inactive'"
+        class="languageButton"
+        type="button"
+        (click)="updateList('library')"
+    >Libraries</button>
+    
+    <button
+        [ngClass]="CurrentList === 'machining' ? 'selected' : 'inactive'"
+        class="languageButton"
+        type="button"
+        (click)="updateList('machining')"
+    >Machining</button>
+</section>

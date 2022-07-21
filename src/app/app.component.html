@@ -1,0 +1,10 @@
+<section>
+  <nav-bar class="navBar" [Links]="Links"></nav-bar>
+
+  <mobile-nav class="mobileNav" *ngIf="MobileMenu" [Links]="Links"></mobile-nav>
+
+  <article>
+    <router-outlet></router-outlet>
+  </article>
+  <footer-component></footer-component>
+</section>

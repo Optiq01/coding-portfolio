@@ -1,0 +1,32 @@
+<section>
+    <h2>
+        Why I Code
+    </h2>
+
+    <p>
+        My passion for coding began with a desire to build web platforms for my various creative endeavors&#46; Due to the highly custom nature of my ideas these platforms required a level of complexity and functionality that made them more &#34;software&#34; like than what I initially anticipated&#46;  After trying different CMS platforms and other shop builders to no avail I decided to dive into full stack development to become skilled enough to emulate my face&#45;to&#45;face operations in code&#46;
+    </p>
+
+    <h2>
+        My Preferred Framework
+    </h2>
+
+    <p>
+        I&#39;ve grown quite fond of Angular and have been using it as my go to platform for building my ideas&#46;  I love React and Vue as well however I noticed the larger my applications became the more I would default to doing things &#34;the Angular way&#34; to keep everything concise&#44; organized and accessible where needed&#46;  I&#39;ve come to appreciate the strictness of Typescript because as a project grows&#44; I can only think so much at one time and the TS compiler reminds me of the things I should be thinking about that I might not be considering in the moment&#46;
+    </p>
+
+    <h2>
+        Certifications
+    </h2>
+    <article>
+        <certificate-feature *ngFor="let a of Certifications" [Certificate]="a"></certificate-feature>
+    </article>
+
+    <h2>
+        Complimentary Skillsets
+    </h2>
+
+    <ul>
+        <li class="skillItem" *ngFor="let a of Skillsets">{{a}}</li>
+    </ul>
+</section>
