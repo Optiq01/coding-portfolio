@@ -1,3 +1,49 @@
+.mainShell{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-row-gap: var(--tiny-1-6);
+    width: 100%;
+}
 .skillItem{
     list-style: none;
 }
+
+.titleArea{
+    margin-top: var(--xTiny-2-4);
+    font-size: var(--text-subtitle-4);
+}
+
+.textShell{
+    --crushGap-w: var(--loMed-1-6);
+    --baseSize-w: var(--small-2-9);
+    --edgeChase-w: var(--micro-2-7);
+    --chaseStop-w: var(--hiMed-1-4);
+    margin-bottom: var(--tiny-1-7);
+}
+
+.textArea{
+    display:block;
+    --text-size: var(--text-article-2);
+}
+
+.articleArea{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-row-gap: var(--xTiny-2-4);
+    justify-items: center;
+    justify-self: center;
+    --crushGap-w: var(--micro-1-7);
+    --baseSize-w: var(--loMed-1-8);
+    --edgeChase-w: var(--xTiny-2-4);
+    --chaseStop-w: var(--hiMed-2-3);
+    background-color: var(--color-02);
+    margin-top: var(--xTiny-1-8);
+}
+
+.certificateShell{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-row-gap: var(--tiny-1-4);
+    margin-bottom: var(--xTiny-2-8);
+}
+

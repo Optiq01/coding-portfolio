@@ -1,0 +1,12 @@
+.mainSection{
+    display: grid;
+    grid-auto-rows:auto;
+    grid-row-gap: var(--xTiny-1-4);
+    margin-top: var(--xTiny-1-6);
+    
+}
+
+.titleSection{
+    font-size: var(--text-title-1);
+    text-align: center;
+}

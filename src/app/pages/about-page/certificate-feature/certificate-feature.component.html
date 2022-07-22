@@ -1,17 +1,17 @@
-<section>
+<section class="mainShell">
 
-    <article>
-        <h3>Certificate</h3>
-        <p>{{Certificate.title}}</p>
+    <article class="displayRow firstRow">
+        <h3 class="displayTitle">Certificate</h3>
+        <p class="displayArea">{{Certificate.title}}</p>
     </article>
     
-    <article>
-        <h3>Institution</h3>
-        <p>{{Certificate.title}}</p>
+    <article class="displayRow">
+        <h3 class="displayTitle">Institution</h3>
+        <p class="displayArea">{{Certificate.institution}}</p>
     </article>
 
-    <article>
-        <a [href]="Certificate.link">View Certificate</a>
+    <article class="displayRow lastRow">
+        <a [href]="Certificate.link" class="link" target="blank">View Certificate</a>
     </article>
 
 </section>

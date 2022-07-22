@@ -1,7 +1,7 @@
 .mainShell{
     display: block;
-    margin-left: var(--xTiny-1-4);
-
+    /*margin-left: var(--xTiny-1-4);*/
+    width: max-content;
 }
 
 .languageCaption{
@@ -19,6 +19,7 @@
     --baseSize-w: var(--loMed-1-5);
     --edgeChase-w: var(--micro-1-4);
     --chaseStop-w: var(--loMed-2-7);
+    justify-self: center;
 }
 
 .tableHeader{

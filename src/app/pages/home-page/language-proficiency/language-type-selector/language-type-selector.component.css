@@ -24,7 +24,7 @@
 .languageButton{
     border: none;
     text-decoration: none;
-    font-size: var(--text-widget-1);
+    font-size: var(--text-caption-1);
     width: var(--tiny-1-4);
     height: var(--xTiny-1-3);
 }

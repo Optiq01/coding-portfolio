@@ -66,6 +66,7 @@
     width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    min-height: 200vh;
 }
 
 .languageShellBgPhoto{
@@ -77,7 +78,6 @@
     background-blend-mode: soft-light;
     opacity: .44;
     width: 100%;
-    min-height: 170vh;
     z-index: 3;
 }
 
