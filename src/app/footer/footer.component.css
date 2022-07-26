@@ -2,7 +2,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--color-01);
-    height: var(--small-1-4);
+    height: var(--tiny-2-4);
 }
 
 .leftColumn{

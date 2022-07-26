@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CodingSpecialtiesComponent } from './coding-specialties.component';
+import { CapabilityComponentModule } from './capability-component/capability-component.module';
 
 
 
@@ -9,7 +10,8 @@ import { CodingSpecialtiesComponent } from './coding-specialties.component';
     CodingSpecialtiesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CapabilityComponentModule
   ],
   exports: [
     CodingSpecialtiesComponent

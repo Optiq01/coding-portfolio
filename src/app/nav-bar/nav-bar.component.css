@@ -2,6 +2,7 @@
     display: block;
     height: var(--xTiny-1-6);
     background-color: var(--color-01);
+    box-shadow: 0 var(--line-light) var(--line-bold) var(--color-01);
 }
 
 .nav{

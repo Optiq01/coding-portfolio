@@ -7,6 +7,12 @@
     --color-03: #f5f1ed;
     --color-04: #dad2bc;
     --color-05: #a99985;
+    --color-06: #5F5344;
+}
+
+*{
+    padding: 0;
+    margin: 0;
 }
 
 html{

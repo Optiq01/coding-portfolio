@@ -1,11 +1,13 @@
 .selected{
     background-color: var(--color-05);
     color: var(--color-03);
+    box-shadow: 0 var(--line-fine) var(--line-light) var(--color-06);
 }
 
 .inactive{
     background-color: var(--color-03);
-    color: var(--color-01)
+    color: var(--color-05);
+    box-shadow: 0 var(--line-light) var(--line-bold) var(--color-06);
 }
 
 
@@ -23,6 +25,7 @@
 
 .languageButton{
     border: none;
+    border-radius: calc(var(--line-bold) / 3);
     text-decoration: none;
     font-size: var(--text-caption-1);
     width: var(--tiny-1-4);

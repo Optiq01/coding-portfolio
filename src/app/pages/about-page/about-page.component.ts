@@ -8,12 +8,16 @@ export const SKILLSETS : string[] = [
   'Solidworks Engineering',
   'Sound Design and Composition',
   'Addative and Subtractive Manufacturing',
-  'Gardening and Botany'
+  'Gardening and Botany',
+  'Woodworking and Metalworking',
+  '3D Printing',
+  'CNC Milling'
 ];
 
 export interface CertificationItem {
   title: string;
   institution: string;
+  issued: string;
   link: string;
 }
 
@@ -21,11 +25,13 @@ export const CERTIFICATIONS: CertificationItem[] = [
   {
     title: 'Responsive Web Design',
     institution: 'Free Code Camp',
+    issued: '7-24-2018',
     link: 'https://www.freecodecamp.org/certification/marcw/responsive-web-design'
   },
   {
     title: 'Javascript Algorithms and Data Structures',
     institution: 'Free Code Camp',
+    issued: '8-2-2018',
     link: 'https://www.freecodecamp.org/certification/marcw/javascript-algorithms-and-data-structures'
   }
 ]

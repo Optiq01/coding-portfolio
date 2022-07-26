@@ -3,9 +3,28 @@
     grid-auto-rows: auto;
     grid-row-gap: var(--tiny-1-6);
     width: 100%;
+    justify-items: center;
+}
+
+.skillShell{
+    display: grid;
+    justify-items: center;
+}
+
+.skillList{
+    display: grid;
+    grid-auto-rows: auto;
+    grid-row-gap: var(--xTiny-1-4);
+    margin: var(--xTiny-2-4) 0;
 }
 .skillItem{
     list-style: none;
+    font-size: var(--text-article-3);
+    text-align: center;
+}
+
+.skillTitleArea{
+    font-size: var(--text-title-1);
 }
 
 .titleArea{

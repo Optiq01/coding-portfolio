@@ -6,7 +6,7 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class NavService {
 
-  CurrentPage: BehaviorSubject<string> = new BehaviorSubject<string>('about');
+  CurrentPage: BehaviorSubject<string> = new BehaviorSubject<string>('');
   MobileToggle: boolean = false;
   MobileMenuStaus: BehaviorSubject<boolean> = new BehaviorSubject<boolean>(false);
 

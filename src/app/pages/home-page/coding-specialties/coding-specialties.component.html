@@ -1,8 +1,13 @@
 <section class="mainSection">
-    <p class="titleSection">Coding Capabilities</p>
-    <article>
-        <p>
-            <span *ngFor="let a of Specialties; let i = index">{{a}}<span *ngIf="i !== Specialties.length -1">, </span></span>
-        </p>
+    <div class="bgShell"></div>
+    <div class="bgOverlay"></div>
+    <article class="contentShell">
+        <p class="titleSection">Coding Capabilities</p>
+        <article class="srcryBox capabilityShell">
+            <code-capability class="srcryBox capabilityItem" *ngFor="let a of Capabilities" [Capability]="a"></code-capability>
+            <!--<p>
+                <span *ngFor="let a of Specialties; let i = index">{{a}}<span *ngIf="i !== Specialties.length -1">, </span></span>
+            </p>-->
+        </article>
     </article>
 </section>

@@ -42,11 +42,14 @@
 
     </article>
 
-    <h2>
-        Complimentary Skillsets
-    </h2>
+    <article class="skillShell">
+        <h2 class="skillTitleArea">
+            Additional Skillsets
+        </h2>
+    
+        <ul class="skillList">
+            <li class="skillItem" *ngFor="let a of Skillsets">{{a}}</li>
+        </ul>
+    </article>
 
-    <ul>
-        <li class="skillItem" *ngFor="let a of Skillsets">{{a}}</li>
-    </ul>
 </section>

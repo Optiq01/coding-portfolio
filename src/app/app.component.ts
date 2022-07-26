@@ -27,5 +27,6 @@ export class AppComponent implements OnInit {
 
   public updateRoute(path: string): void {
     this.router.navigate([path]);
+    window.scrollTo(0, 0);
   }
 }

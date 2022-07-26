@@ -1,4 +1,20 @@
-<section *ngFor="let a of LanguageList">
+<p class="languageCaption"><i>&#42;The Usage is a 0&#45;10 rating on how often I use listed technology</i></p>
+
+<table *ngFor="let a of LanguageList" class="languageTable">
+    <tr>
+        <td class="titleArea">language</td>
+        <td class="contentArea">{{a.name}}</td>
+    </tr>
+    <tr>
+        <td class="titleArea">experience</td>
+        <td class="contentArea">{{a.experience}}</td>
+    </tr>
+    <tr>
+        <td class="titleArea">usage</td>
+        <td class="contentArea">{{a.usage}}</td>
+    </tr>
+</table>
+<!--<section *ngFor="let a of LanguageList" class="mainShell">
     <article>
         <p>name : {{a.name}}</p>
     </article>
@@ -8,4 +24,4 @@
     <article>
         <p>useage : {{a.usage}}</p>
     </article>
-</section>
+</section>-->
